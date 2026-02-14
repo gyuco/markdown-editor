@@ -1,0 +1,16 @@
+<div style="padding: 20px;">
+  <h1>Markdown Editor</h1>
+  <app-editor [toolbarConfig]="[
+    ['bold', 'italic'],
+    ['paragraph', 'h1', 'h2', 'h3', 'h4'],
+    ['table'],
+    ['colBefore', 'colAfter', 'delCol', 'rowBefore', 'rowAfter', 'delRow', 'merge', 'split', 'hCell', 'delTable']
+  ]" [toolbarTranslations]="{ bold: 'Grassetto', italic: 'Corsivo' }" [value]="markdownContent" outputFormat="markdown"
+    (valueChange)="markdownContent = $event">
+  </app-editor>
+
+  <h3>Output:</h3>
+  <pre>{{ markdownContent }}</pre>
+
+  <router-outlet></router-outlet>
+</div>

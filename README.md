@@ -1,3 +1,39 @@
+# Markdown Editor — Angular 19
+
+![Angular](https://img.shields.io/badge/Angular-19-DD0031?logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Markdown editor with **live preview**, built with Angular 19 + TypeScript.
+
+## Features
+
+- Live Markdown → HTML preview
+- Clean Angular 19 standalone-components architecture
+- Ready for extensions: syntax highlighting, toolbar, file import/export
+
+## Quickstart
+
+```bash
+npm install
+ng serve
+# open http://localhost:4200
+```
+
+## Build
+
+```bash
+ng build
+```
+
+---
+
+> Built by [Giuseppe Concas](https://github.com/gyuco) — AI App Developer (Angular/TypeScript)
+
+---
+
+## Angular CLI notes (original scaffold)
+
 # MdEditorWorkspace
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.20.
